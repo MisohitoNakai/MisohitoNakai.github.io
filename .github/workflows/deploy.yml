@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}HyDiator/
+      url: https://${{ steps.deployment.outputs.page_url }}.github.io/HyDiator/
     runs-on: ubuntu-latest
     
     defaults:
