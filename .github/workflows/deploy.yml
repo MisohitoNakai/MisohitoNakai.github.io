@@ -46,7 +46,7 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-          path: '/HyDiator/dist'
+          path: 'HyDiator/dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
